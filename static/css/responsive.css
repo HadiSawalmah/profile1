@@ -53,14 +53,20 @@
 {
     .header{
         margin-top: 10px;
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+    .header .container{
+        width: 150px;
+    }
+    .header span,h1{
+        font-size:60px;
     }
     .container{
         display: flex;
         padding-left: 1px;
         justify-content: end;
-
     }
+
     .definetion {
         grid-template-columns: 1fr; 
         gap: 1px; 
@@ -103,7 +109,7 @@
             justify-content: center;
         }
         .text_card_new{
-            font-size: 12px;
+            font-size: 20px;
             }
         .about_container{
             display: grid;
@@ -119,9 +125,12 @@
             font-size: 25px;
         }
         .about_text{
-            font-size: 10px;
+            font-size: 20px;
         }
-        .about h2{
+        .larg-font{
+            font-size: 20px;
+        }
+        .about-page h2{
             margin-top: 30%;
             font-size: 50px;
         }
@@ -142,7 +151,10 @@
 @media(max-width:500px)
 {
     .container_text_contact{
-        width: 80%;
+        width: 60%;
+        margin-left: 1%; 
+        margin-right: 1%;
+        width: 100%;
     }
     .header{
         display: flex;
@@ -150,8 +162,8 @@
         justify-content: center;
     }
     
-    .nav{
-        margin-right: 130%;
+    .container{
+        margin-left: 70%;
     }
     .header h1{
         display: none;
@@ -177,8 +189,6 @@
     .nav{
         display: grid;
             gap : 20px;
-    
-    
     }
     .container{
         width: 20%;

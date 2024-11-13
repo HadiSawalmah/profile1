@@ -44,12 +44,14 @@ html {
 .card_text{
     font-size: 90px;
 }
-.about{
+.about-page{
     display: grid;
     justify-content: center ;
+    color: white;
+    
     
 }
-.about h2{
+.about-page h2{
     display: flex;
     justify-content: center;
 }
