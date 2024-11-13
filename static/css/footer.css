@@ -1,0 +1,28 @@
+.container_foot{
+    background-color:#3e2d26;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10rem;
+    
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.contact-info div{
+    margin-left: 60%;
+}
+.facebook,
+.instagram,
+.linkedin,
+.github{
+    color: white;
+    text-decoration:solid;
+    font-size: 15px;
+    margin: 8px;
+    
+}

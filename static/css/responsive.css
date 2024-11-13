@@ -1,0 +1,212 @@
+/* contact */
+@media (max-width: 1152px) {
+    .nav{
+        max-width: 50%;
+    }
+    .container_text_contact{
+        width: 70%;
+        }
+}
+@media (max-width: 768px) {
+    .header{
+        margin-top: 10px;
+        justify-content: space-around;
+    
+    }
+    .container{
+        display: flex;
+
+    }
+    .nav a {
+        display: none; 
+    }
+    
+    .menu-icon {
+        display:inline-block; 
+    }
+
+    .menu-checkbox:checked + .menu-icon + a,
+    .menu-checkbox:checked + .menu-icon + a + a,
+    .menu-checkbox:checked + .menu-icon + a + a + a,
+    .menu-checkbox:checked + .menu-icon + a + a + a + a {
+        display: block;
+        background-color: #3e2d26;
+        color: aliceblue;
+        padding: 10px;
+        text-align: center;
+        margin: 5px 0;
+        border-radius: 10px;
+    }
+    .resume{
+        display: flex   ;
+        justify-content: center;
+    }
+    .resume_container{
+        grid-template-columns: 1fr;
+        margin-left: 10%;
+        gap: 20px;
+    }
+
+
+}   
+@media(max-width:1000px)
+{
+    .header{
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+    .container{
+        display: flex;
+        padding-left: 1px;
+        justify-content: end;
+
+    }
+    .definetion {
+        grid-template-columns: 1fr; 
+        gap: 1px; 
+    }
+    .definetion p ,h2{
+        font-size: 18px; 
+    }
+    .container_text_contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 5rem;
+        background-color:chocolate;
+        width: 70%;   
+    }
+    .container_ss h2{
+        display: flex;
+        justify-content: center;
+    }
+    .nested_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+        background-color: #ddd;
+        }
+        .author-info{
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+        .text-author-info{
+            margin-left: 20%;
+        }
+        .avatar{
+            max-width: 250px;
+            border-radius: 20%;
+            margin-left: 20%;
+        }
+        .card_image{
+            justify-content: center;
+        }
+        .text_card_new{
+            font-size: 12px;
+            }
+        .about_container{
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .card_about{
+            width: 70%;
+            padding: 1px;
+            border-radius: 20%;
+        }
+        .contact-info div{
+            margin-left: 20%;
+            font-size: 25px;
+        }
+        .about_text{
+            font-size: 10px;
+        }
+        .about h2{
+            margin-top: 30%;
+            font-size: 50px;
+        }
+        .card_text{
+            font-size: 50px;
+        }
+        .text-image div p a{
+            font-size: 30px;
+        }
+        .card_title{
+            width: 70%;
+            font-size: 30px;
+        }
+        .my-photo{
+            display: none;
+        }
+}
+@media(max-width:500px)
+{
+    .container_text_contact{
+        width: 80%;
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav{
+        margin-right: 130%;
+    }
+    .header h1{
+        display: none;
+    }
+    .social-sharing a{
+    display: grid;
+    width: 100px;
+    justify-content: center;
+    margin: 10px;
+    }
+
+    .nested_grid{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        background-color: #ddd;
+        }
+}
+
+
+/* index */
+@media (max-width: 980px) {
+    .nav{
+        display: grid;
+            gap : 20px;
+    
+    
+    }
+    .container{
+        width: 20%;
+    }
+    .nav a {
+        display: none; 
+    }
+    
+    .menu-icon {
+        display:inline-block; 
+        justify-content: center;
+    }
+
+    .menu-checkbox:checked + .menu-icon + a,
+    .menu-checkbox:checked + .menu-icon + a + a,
+    .menu-checkbox:checked + .menu-icon + a + a + a,
+    .menu-checkbox:checked + .menu-icon + a + a + a + a {
+        display: block;
+        background-color: #3e2d26;
+        color: aliceblue;
+        padding: 10px;
+        text-align: center;
+        margin: 5px 0;
+        border-radius: 10px;
+    }
+}   
+@media (max-width: 1252px) {
+    .nav{
+        max-width: 50%;
+    }
+}
