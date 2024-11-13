@@ -27,6 +27,11 @@
 .nav .home{
     color:#9a461b;
 }
+.nav-hover:hover{
+    background-color: white;
+    color:#9a461b ;
+    border-radius:20px;
+}
 .header span{
     color:#9a461b;
     font-size: 40px;

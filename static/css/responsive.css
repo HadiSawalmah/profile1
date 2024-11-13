@@ -66,7 +66,7 @@
         padding-left: 1px;
         justify-content: end;
     }
-
+    
     .definetion {
         grid-template-columns: 1fr; 
         gap: 1px; 
@@ -82,6 +82,7 @@
         background-color:chocolate;
         width: 70%;   
     }
+
     .container_ss h2{
         display: flex;
         justify-content: center;
@@ -100,17 +101,26 @@
         .text-author-info{
             margin-left: 20%;
         }
+        .card-img-top{
+            width: 80%;
+            margin-left: 1%;
+
+        }
         .avatar{
             max-width: 250px;
             border-radius: 20%;
             margin-left: 20%;
         }
         .card_image{
-            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 70%;
+            margin-left: 20%;
         }
         .text_card_new{
-            font-size: 20px;
-            }
+            font-size: 15px;
+            padding: 1px;
+        }
         .about_container{
             display: grid;
             grid-template-columns: auto;
@@ -121,18 +131,20 @@
             border-radius: 20%;
         }
         .contact-info div{
-            margin-left: 20%;
-            font-size: 25px;
+            margin-left: 1%;
+            font-size: 16px;
         }
         .about_text{
-            font-size: 20px;
+            font-size: 14px;
         }
         .larg-font{
             font-size: 20px;
         }
         .about-page h2{
+            font-size: 20px;
+        }
+        .about-page {
             margin-top: 30%;
-            font-size: 50px;
         }
         .card_text{
             font-size: 50px;
@@ -141,17 +153,19 @@
             font-size: 30px;
         }
         .card_title{
-            width: 70%;
-            font-size: 30px;
+            font-size: 20px;
         }
         .my-photo{
             display: none;
         }
+        .text_image{
+            margin-top: 10px;
+        }
 }
 @media(max-width:500px)
 {
+    
     .container_text_contact{
-        width: 60%;
         margin-left: 1%; 
         margin-right: 1%;
         width: 100%;
@@ -163,10 +177,20 @@
     }
     
     .container{
-        margin-left: 70%;
+        margin-left: 30%;
     }
     .header h1{
         display: none;
+    }
+    .card_about{
+        width: 100%;
+        padding: 1px;
+        border-radius: 20%;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 200px;
+        border-radius: 100px;
     }
     .social-sharing a{
     display: grid;
@@ -174,7 +198,18 @@
     justify-content: center;
     margin: 10px;
     }
-
+    .card{
+        margin: 1px;
+    }
+    .card_title{
+        font-size: 14px;
+    }
+    .card_text{
+        font-size: 25px;
+    }
+    .larg-font{
+        font-size: 14px;
+    }
     .nested_grid{
         display: flex;
         flex-direction: column;
@@ -189,9 +224,10 @@
     .nav{
         display: grid;
             gap : 20px;
+            background-color: #D2691E;
     }
     .container{
-        width: 20%;
+        width: 100%;
     }
     .nav a {
         display: none; 
